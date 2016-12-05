@@ -9,6 +9,17 @@ body {
   line-height: 1.5;
   color: #606c71; }
 
+  content{
+			 width: 700px;
+			 display: block;
+			 height: auto;
+		 }
+	content > img{
+			float: left; width: 200px;
+			height: 200px;
+			margin: 5px 8px;
+		 }
+
 div {
     text-align: justify;
 }
