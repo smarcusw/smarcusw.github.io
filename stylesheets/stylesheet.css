@@ -9,13 +9,20 @@ body {
   line-height: 1.5;
   color: #606c71; }
 
-ul {
-  white-space: nowrap;
+div {
+    text-align: justify;
 }
 
-ul, li {
-  list-style: none;
-  display: inline;
+div img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+div:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
 }
 
 a {
