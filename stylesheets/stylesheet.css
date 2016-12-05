@@ -10,13 +10,13 @@ body {
   color: #606c71; }
 
   #content{
-			 width: 700px;
+			 width: 1000px;
 			 display: block;
 			 height: auto;
 		 }
 	#content > img{
-			float: left; width: 200px;
-			height: 200px;
+			float: left; width:500px;
+			height: 300px;
 			margin: 5px 8px;
 }
 
